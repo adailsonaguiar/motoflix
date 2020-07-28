@@ -4,7 +4,7 @@ import Button from '../Button';
 export const MenuWrapper = styled.nav`
   width: 100%;
   height: 94px;
-  z-index: 100;
+  z-index: 1;
 
   position: fixed;
   top: 0;

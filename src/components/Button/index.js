@@ -6,10 +6,14 @@ const Button = styled.button`
   font-weight: bold;
   font-size: 13px;
   outline: none;
+  border: none;
   border-radius: 25px;
   text-decoration: none;
   display: inline-block;
   transition: opacity 0.3s;
+  color: var(--white);
+  background-color: var(--primary);
+  padding: 16px 44px;
   &:hover,
   &:focus {
     opacity: 0.9;

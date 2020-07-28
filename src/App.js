@@ -7,6 +7,12 @@ import Carousel from './components/Carousel';
 function App() {
   const AppWrapper = styled.div`
     background: var(--grayDark);
+    padding-top: 94px;
+    height: 100%;
+
+    @media (max-width: 800px) {
+      padding-top: 40px;
+    }
   `;
 
   return (
@@ -19,7 +25,7 @@ function App() {
       />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
-      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} />
+      {/* <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} /> */}
     </AppWrapper>
   );
 }

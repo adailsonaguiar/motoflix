@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/imgs/logo.png';
-// import ButtonLink from '../Button';
 import { MenuWrapper, LogoImage, ButtonLink } from './styles';
 const Navbar = () => {
   return (
