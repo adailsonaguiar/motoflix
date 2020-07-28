@@ -21,7 +21,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription="O que é frontend? Trabalhando..."
+        videoDescription="Quais as diferenças entre estas três práticas muito citadas em diversos canais e fóruns? Hoje vamos explicar cada uma delas e traçar comparações para que não restem mais dúvidas!"
       />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
