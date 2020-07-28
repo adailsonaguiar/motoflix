@@ -1,11 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 import Navbar from './components/Navbar';
 import BannerMain from './components/BannerMain';
 import dadosIniciais from './data/dados_iniciais.json';
 import Carousel from './components/Carousel';
 function App() {
+  const AppWrapper = styled.div`
+    background: var(--grayDark);
+  `;
+
   return (
-    <div>
+    <AppWrapper>
       <Navbar />
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
@@ -15,7 +20,7 @@ function App() {
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} />
-    </div>
+    </AppWrapper>
   );
 }
 

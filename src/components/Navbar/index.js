@@ -1,19 +1,17 @@
 import React from 'react';
 import logo from '../../assets/imgs/logo.png';
-// import ButtonLink from './components/ButtonLink';
-import './styles.css';
-import ButtonLink from '../Button';
-
+// import ButtonLink from '../Button';
+import { MenuWrapper, LogoImage, ButtonLink } from './styles';
 const Navbar = () => {
   return (
-    <nav className="Menu">
+    <MenuWrapper>
       <a href="/">
-        <img className="Logo" src={logo} alt="Motoflix logo" />
+        <LogoImage src={logo} alt="Motoflix logo" />
       </a>
       <ButtonLink as="a" href="/">
         NOVO VÍDEO
       </ButtonLink>
-    </nav>
+    </MenuWrapper>
   );
 };
 
