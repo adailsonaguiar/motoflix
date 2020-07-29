@@ -32,62 +32,66 @@
         {
           "titulo": "COVID-19 | ISOLAMENTO SOCIAL COMO VOCÊ NUNCA VIU | Sozinho na natureza",
           "url": "https://www.youtube.com/watch?v=iVNNu-qoX14"
+        },
+        {
+          "titulo": "ACAMPAMENTO SELVAGEM com barraca SOLO - Almoço na mata - Bushcraft - Cozinha mateira",
+          "url": "https://www.youtube.com/watch?v=C3yhzvOguF8"
         }
       ]
     },
     {
-      "titulo": "Animais",
+      "titulo": "Animais Selvagens",
       "cor": "#0073CD",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Conheça animais incríveis!",
+        "url": "https://www.youtube.com/watch?v=Rq5OD7CHSws&list=PLtuNKmP6Kog5Io0Ts269XOf_2Nw8H2LaX"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Top 5 com Richard Rasmussen",
+          "url": "https://www.youtube.com/watch?v=BRxL_6P-8ZA&t=984s"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "África do Sul Selvagem - documentários de animais HD",
+          "url": "https://www.youtube.com/watch?v=HJ7UTMcByBI"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Leões irmãos dividindo o mesmo Reino | Animais Selvagens",
+          "url": "https://www.youtube.com/watch?v=GuqHheJTORA"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Brasil Secreto Pantanal",
+          "url": "https://www.youtube.com/watch?v=2dXPiL26eYc"
         },
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Leões Caçando | Cenas fortes | Animais Selvagens",
+          "url": "https://www.youtube.com/watch?v=UeS6HbvwTck"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Kit Sobrevivência",
       "cor": "#00A5F0",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Não fique despreparado!",
+        "url": "https://www.youtube.com/watch?v=lfMc3m0GBdk"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Kit de sobrevivência INFALÍVEL: faça o seu! ft. Celso Cavallini",
+          "url": "https://www.youtube.com/watch?v=lfMc3m0GBdk"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Como Montar um Kit de Sobrevivência de R$150,00 Efetivo!",
+          "url": "https://www.youtube.com/watch?v=xkxTrOAY-nw"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "24hrs NA SELVA SÓ COM O KIT SOBREVIVÊNCIA | MD ep 34",
+          "url": "https://www.youtube.com/watch?v=OqSXkgjoA1U"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Kit tático, compacto em caixa estanque!",
+          "url": "https://www.youtube.com/watch?v=4po5j8QZv-k"
         }
       ]
     },

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import BannerMain from './components/BannerMain';
 import dadosIniciais from './data/dados_iniciais.json';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 function App() {
   const AppWrapper = styled.div`
     background: var(--grayDark);
@@ -25,7 +26,8 @@ function App() {
       />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[0]} />
       <Carousel ignoreFirstVideo category={dadosIniciais.categorias[1]} />
-      {/* <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} /> */}
+      <Carousel ignoreFirstVideo category={dadosIniciais.categorias[2]} />
+      <Footer />
     </AppWrapper>
   );
 }
