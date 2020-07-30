@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/imgs/logo.png';
 import { MenuWrapper, LogoImage, ButtonLink } from './styles';
 const Navbar = () => {
@@ -7,9 +8,9 @@ const Navbar = () => {
       <a href="/">
         <LogoImage src={logo} alt="Motoflix logo" />
       </a>
-      <ButtonLink as="a" href="/">
-        NOVO VÍDEO
-      </ButtonLink>
+      <Link to="/new-video">
+        <ButtonLink as="a">NOVO VÍDEO</ButtonLink>
+      </Link>
     </MenuWrapper>
   );
 };

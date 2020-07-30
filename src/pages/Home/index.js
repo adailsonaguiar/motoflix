@@ -8,12 +8,7 @@ import Footer from '../../components/Footer';
 function Home() {
   const AppWrapper = styled.div`
     background: var(--grayDark);
-    padding-top: 94px;
     height: 100%;
-
-    @media (max-width: 800px) {
-      padding-top: 40px;
-    }
   `;
 
   return (
