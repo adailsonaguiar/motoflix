@@ -1,10 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import Navbar from '../../components/Navbar';
 import BannerMain from '../../components/BannerMain';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import Carousel from '../../components/Carousel';
-import Footer from '../../components/Footer';
 function Home() {
   const AppWrapper = styled.div`
     background: var(--grayDark);

@@ -3,7 +3,7 @@ import SlickSlider from 'react-slick';
 import styled from 'styled-components';
 
 const Container = styled.ul`
-  padding: 0;
+  padding-left: 10px;
   margin: 0;
   .slick-prev,
   .slick-next {
@@ -28,6 +28,8 @@ const Container = styled.ul`
 `;
 
 export const SliderItem = styled.li`
+  padding-bottom: 15px;
+  padding-top: 15px;
   margin-right: 16px;
   img {
     margin: 16px;
