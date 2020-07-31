@@ -1,0 +1,10 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Aventuras",
+      "description": "Categoria",
+      "color": "#0046A0"
+    }
+  ]
+}

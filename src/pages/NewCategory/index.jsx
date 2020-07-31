@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import FormField from '../../components/FormField';
+import Button from '../../components/Button';
 
 const NewCategory = () => {
   const [categories, setCategories] = useState([]);
@@ -23,8 +24,15 @@ const NewCategory = () => {
   function handleSubmit(e) {
     e.preventDefault();
     setCategories([...categories, category]);
-    console.log(category);
   }
+
+  useEffect(() => {
+    const URL = 'http://localhost:8080/categories';
+
+    fetch(URL)
+      .then((value) => value.json())
+      .then((value) => setCategories([...value]));
+  }, []);
   return (
     <>
       <h1>
@@ -42,7 +50,7 @@ const NewCategory = () => {
         />
 
         <FormField
-          type="text"
+          type="textarea"
           name="description"
           label="Descrição"
           value={category.description}
@@ -56,7 +64,7 @@ const NewCategory = () => {
           value={category.color}
           onChange={handleChange}
         />
-        <button>Cadastrar</button>
+        <Button>CADASTRAR</Button>
       </form>
 
       <ul>
