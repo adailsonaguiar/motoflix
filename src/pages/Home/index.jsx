@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import BannerMain from '../../components/BannerMain';
 import dadosIniciais from '../../data/dados_iniciais.json';
 import Carousel from '../../components/Carousel';
+
 function Home() {
   const AppWrapper = styled.div`
     background: var(--grayDark);

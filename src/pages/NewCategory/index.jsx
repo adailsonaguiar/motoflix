@@ -27,7 +27,10 @@ const NewCategory = () => {
   }
   return (
     <>
-      <h1>Cadastro de Categoria: {category.name}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {category.name}
+      </h1>
 
       <form onSubmit={handleSubmit}>
         <FormField
