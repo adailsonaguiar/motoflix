@@ -27,7 +27,7 @@ function Home() {
                 url={category.videos[0].url}
                 videoDescription="Quais as diferenças entre estas três práticas muito citadas em diversos canais e fóruns? Hoje vamos explicar cada uma delas e traçar comparações para que não restem mais dúvidas!"
               />
-              <Carousel ignoreFirstVideo category={category} />;
+              <Carousel ignoreFirstVideo category={category} />
             </>
           );
         }
