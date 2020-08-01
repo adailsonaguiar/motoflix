@@ -2,32 +2,31 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import FormField from '../../components/FormField';
 import Button from '../../components/Button';
+import useForm from '../../hooks/useForm';
 
 const NewCategory = () => {
-  const [categories, setCategories] = useState([]);
   const initialsValues = {
     name: '',
     description: '',
     color: '#000',
   };
-  const [category, setCategory] = useState(initialsValues);
-
-  function setValue(key, value) {
-    setCategory({ ...category, [key]: value });
-  }
-
-  function handleChange(e) {
-    const { value } = e.target;
-    setValue(e.target.getAttribute('name'), value);
-  }
+  const { category, handleChange } = useForm({ initialsValues });
+  const [categories, setCategories] = useState([]);
 
   function handleSubmit(e) {
     e.preventDefault();
     setCategories([...categories, category]);
+
+    fetch('https://arlivre-api.herokuapp.com/categories', {
+      method: 'POST',
+      body: JSON.stringify(category),
+    });
+
+    console.log(JSON.stringify(category));
   }
 
   useEffect(() => {
-    const URL = 'http://localhost:8080/categories';
+    const URL = 'https://arlivre-api.herokuapp.com/categories';
 
     fetch(URL)
       .then((value) => value.json())
