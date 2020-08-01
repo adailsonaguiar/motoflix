@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 const useForm = ({ initialsValues }) => {
-  const [category, setCategory] = useState(initialsValues);
+  const [values, setValues] = useState(initialsValues);
 
   function setValue(key, value) {
-    setCategory({ ...category, [key]: value });
+    setValues({ ...values, [key]: value });
   }
 
   function handleChange(e) {
@@ -12,7 +12,7 @@ const useForm = ({ initialsValues }) => {
     setValue(e.target.getAttribute('name'), value);
   }
 
-  return { handleChange, category };
+  return { handleChange, values };
 };
 
 export default useForm;

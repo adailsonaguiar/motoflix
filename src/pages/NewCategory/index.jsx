@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import FormField from '../../components/FormField';
 import Button from '../../components/Button';
 import useForm from '../../hooks/useForm';
+import categoriesRepository from '../../repositories/categories';
 
 const NewCategory = () => {
   const initialsValues = {
@@ -12,38 +13,32 @@ const NewCategory = () => {
     textextra: '',
     urlextra: '',
   };
-  const { category, handleChange } = useForm({ initialsValues });
+  const { values, handleChange } = useForm({ initialsValues });
   const [categories, setCategories] = useState([]);
 
   function handleSubmit(e) {
     e.preventDefault();
     const newCategory = {
-      title: category.title,
-      description: category.description,
-      color: category.color,
-      link_extra: { text: category.textextra, url: category.urlextra },
+      title: values.title,
+      description: values.description,
+      color: values.color,
+      link_extra: { text: values.textextra, url: values.urlextra },
     };
     console.log(newCategory);
     setCategories([...categories, newCategory]);
-
-    // fetch('https://arlivre-api.herokuapp.com/categories', {
-    //   method: 'POST',
-    //   body: JSON.stringify(newCategory),
-    // });
+    categoriesRepository.create(newCategory);
   }
 
   useEffect(() => {
-    const URL = 'https://arlivre-api.herokuapp.com/categories';
-
-    fetch(URL)
-      .then((value) => value.json())
-      .then((value) => setCategories([...value]));
+    categoriesRepository
+      .getAllCategoriesWithVideos()
+      .then((value) => setCategories(value));
   }, []);
   return (
     <>
       <h1>
         Cadastro de Categoria:
-        {category.name}
+        {values.name}
       </h1>
 
       <form onSubmit={handleSubmit}>
@@ -51,7 +46,7 @@ const NewCategory = () => {
           type="text"
           name="title"
           label="Nome da Categoria"
-          value={category.title}
+          value={values.title}
           onChange={handleChange}
         />
 
@@ -59,7 +54,7 @@ const NewCategory = () => {
           type="textarea"
           name="description"
           label="Descrição"
-          value={category.description}
+          value={values.description}
           onChange={handleChange}
         />
 
@@ -67,21 +62,21 @@ const NewCategory = () => {
           type="color"
           name="color"
           label="Selecione uma cor"
-          value={category.color}
+          value={values.color}
           onChange={handleChange}
         />
         <FormField
           type="text"
           name="textextra"
           label="Nome Link Externo"
-          value={category.textextra}
+          value={values.textextra}
           onChange={handleChange}
         />
         <FormField
           type="text"
           name="urlextra"
           label="Url Link Externo"
-          value={category.urlextra}
+          value={values.urlextra}
           onChange={handleChange}
         />
         <Button>CADASTRAR</Button>
