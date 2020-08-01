@@ -16,7 +16,7 @@ const FormField = ({ label, name, value, onChange, type }) => {
           value={value}
           onChange={onChange}
         />
-        <S.Label.Text>{label}:</S.Label.Text>
+        <S.Label.Text>{label}</S.Label.Text>
       </S.Label>
     </S.FormFieldWrapper>
   );

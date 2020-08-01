@@ -2,9 +2,85 @@
   "categories": [
     {
       "id": 1,
-      "name": "Aventuras",
-      "description": "Categoria",
-      "color": "#0046A0"
+      "title": "Animais Selvagens",
+      "description": "Conheça animais incríveis!",
+      "color": "#0073CD",
+      "link_extra": {
+        "text": "Conheça animais incríveis!",
+        "url": "https://www.youtube.com/watch?v=Rq5OD7CHSws&list=PLtuNKmP6Kog5Io0Ts269XOf_2Nw8H2LaX"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Bushcraft",
+      "description": "Vivência integrada na natureza",
+      "color": "#0046A0",
+      "link_extra": {
+        "text": "Curta a natureza",
+        "url": "https://www.youtube.com/watch?v=Ajl5F6iUZ_s&list=RDQMPm-uX8gCIYg&start_radio=1"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "titulo": "Sobrevivência, Bushcraft e Preparação: Entenda as diferenças",
+      "url": "https://www.youtube.com/watch?v=EampRie1EyI",
+      "categoryId": 2
+    },
+    {
+      "titulo": "Solo Bushcraft Vintage Camping - Heavy Rain - Sleeping on Sheepskin with Wool Blanket - Canvas Lavvu",
+      "url": "https://www.youtube.com/watch?v=ro4vTW_qERg",
+      "categoryId": 2
+    },
+    {
+      "titulo": "Acampamento de Bushcraft no Inverno",
+      "url": "https://www.youtube.com/watch?v=AKfz5Oegebc",
+      "categoryId": 2
+    },
+    {
+      "titulo": "Construí um abrigo primitivo incrível! - Sobreviva Ep.20",
+      "url": "https://www.youtube.com/watch?v=wKKeh9jBhIE",
+      "categoryId": 2
+    },
+    {
+      "titulo": "Pico Paraná: Hora de tentar de novo! - Bota Suja Ep.16",
+      "url": "https://www.youtube.com/watch?v=YhqtxYmeIdA",
+      "categoryId": 2
+    },
+    {
+      "titulo": "COVID-19 | ISOLAMENTO SOCIAL COMO VOCÊ NUNCA VIU | Sozinho na natureza",
+      "url": "https://www.youtube.com/watch?v=iVNNu-qoX14",
+      "categoryId": 2
+    },
+    {
+      "titulo": "ACAMPAMENTO SELVAGEM com barraca SOLO - Almoço na mata - Bushcraft - Cozinha mateira",
+      "url": "https://www.youtube.com/watch?v=C3yhzvOguF8",
+      "categoryId": 2
+    },
+    {
+      "titulo": "Top 5 com Richard Rasmussen",
+      "url": "https://www.youtube.com/watch?v=BRxL_6P-8ZA&t=984s",
+      "categoryId": 1
+    },
+    {
+      "titulo": "África do Sul Selvagem - documentários de animais HD",
+      "url": "https://www.youtube.com/watch?v=HJ7UTMcByBI",
+      "categoryId": 1
+    },
+    {
+      "titulo": "Leões irmãos dividindo o mesmo Reino | Animais Selvagens",
+      "url": "https://www.youtube.com/watch?v=GuqHheJTORA",
+      "categoryId": 1
+    },
+    {
+      "titulo": "Brasil Secreto Pantanal",
+      "url": "https://www.youtube.com/watch?v=2dXPiL26eYc",
+      "categoryId": 1
+    },
+    {
+      "titulo": "Leões Caçando | Cenas fortes | Animais Selvagens",
+      "url": "https://www.youtube.com/watch?v=UeS6HbvwTck",
+      "categoryId": 1
     }
   ]
 }
