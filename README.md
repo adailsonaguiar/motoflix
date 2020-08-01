@@ -2,9 +2,9 @@
 
 :arrow_right_hook: **Você** tem um coração aventureiro e gosta de conhecer lugares novos? Então pode vir e curta com a gente! [Site](https://ar-livre.vercel.app/)
 
-![Home desktop]()
+![Home desktop](https://raw.githubusercontent.com/adailsonaguiar/ar-livre/master/screens/Capturar.PNG)
 
-![Home mobile]()
+![Home mobile](https://raw.githubusercontent.com/adailsonaguiar/ar-livre/master/screens/Captura2r.PNG)
 
 ## :pencil: Features
 
