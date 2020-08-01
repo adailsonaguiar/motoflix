@@ -1,104 +1,164 @@
-{
-  "categories": [
-    {
-      "id": 1,
-      "title": "Animais Selvagens",
-      "description": "Conheça animais incríveis!",
-      "color": "#0073CD",
-      "link_extra": {
-        "text": "Conheça animais incríveis!",
-        "url": "https://www.youtube.com/watch?v=Rq5OD7CHSws&list=PLtuNKmP6Kog5Io0Ts269XOf_2Nw8H2LaX"
+[
+  {
+    "title": "BigTrail",
+    "description": "motos de uso misto para viagens longas que incluem trechos de off-road.",
+    "color": "#22c2f7",
+    "link_extra": {
+      "text": "BigTrail Brasil",
+      "url": "https://www.youtube.com/channel/UCCBIIX8PYx1OBlyPL7dPD_w"
+    },
+    "id": 3,
+    "videos": [
+      {
+        "title": "Trilha do Índio - A trilha mais difícil do Brasil - BIG TRAIL",
+        "url": "https://www.youtube.com/watch?v=Yuie0co6Cz4&t=17s",
+        "categoryId": 3,
+        "id": 14
+      },
+      {
+        "title": "PERFIL DA GALERA DE BIG TRAIL - CONHEÇA ESSE PÚBLICO",
+        "url": "https://www.youtube.com/watch?v=JqjVj4CvO0g&t=2s",
+        "categoryId": 3,
+        "id": 15
+      },
+      {
+        "title": "CUIDADO COM A ALTURA DE SUA BIGTRAIL",
+        "url": "https://www.youtube.com/watch?v=fRr95onwNuY",
+        "categoryId": 3,
+        "id": 16
+      },
+      {
+        "title": "Dicas - Encare qualquer terreno com sua bigtrail SEGUNDA PARTE ANDAR NA TERRA COM BIG TRAIL",
+        "url": "https://www.youtube.com/watch?v=cVlzLskU7OE",
+        "categoryId": 3,
+        "id": 17
+      },
+      {
+        "title": "BIGTRAIL - Por onde começar? - Melhores motos para iniciantes!!!",
+        "url": "https://www.youtube.com/watch?v=KaCJvdokZ74",
+        "categoryId": 3,
+        "id": 18
+      },
+      {
+        "title": "Como equipar sua big trail para uma viagem longa",
+        "url": "https://www.youtube.com/watch?v=GA7-cmMRux4",
+        "categoryId": 3,
+        "id": 19
+      },
+      {
+        "title": "COMPARATIVO | NOVA BMW F 850 GS x TRIUMPH TIGER 800",
+        "url": "https://www.youtube.com/watch?v=YrTUadNZiYg",
+        "categoryId": 3,
+        "id": 20
+      },
+      {
+        "title": "QUAL A MELHOR BIG TRAIL QUE JÁ TIVE ? (Leia a descrição do vídeo antes de assistir).",
+        "url": "https://www.youtube.com/watch?v=GWvhv17WcYw&t=21s",
+        "categoryId": 3,
+        "id": 21
       }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Animais Selvagens",
+    "description": "Conheça animais incríveis!",
+    "color": "#0073CD",
+    "link_extra": {
+      "text": "Conheça animais incríveis!",
+      "url": "https://www.youtube.com/watch?v=Rq5OD7CHSws&list=PLtuNKmP6Kog5Io0Ts269XOf_2Nw8H2LaX"
     },
-    {
-      "id": 2,
-      "title": "Bushcraft",
-      "description": "Vivência integrada na natureza",
-      "color": "#0046A0",
-      "link_extra": {
-        "text": "Curta a natureza",
-        "url": "https://www.youtube.com/watch?v=Ajl5F6iUZ_s&list=RDQMPm-uX8gCIYg&start_radio=1"
+    "videos": [
+      {
+        "id": 7,
+        "title": "Leões irmãos dividindo o mesmo Reino | Animais Selvagens",
+        "url": "https://www.youtube.com/watch?v=GuqHheJTORA",
+        "categoryId": 1
+      },
+      {
+        "id": 9,
+        "title": "ATAQUES DE HIPOPÓTAMOS EM HUMANOS",
+        "url": "https://www.youtube.com/watch?v=KK-XcQ3cXaU",
+        "categoryId": 1
+      },
+      {
+        "id": 10,
+        "title": "África do Sul Selvagem - documentários de animais HD",
+        "url": "https://www.youtube.com/watch?v=HJ7UTMcByBI",
+        "categoryId": 1
+      },
+      {
+        "id": 11,
+        "title": "Brasil Secreto Pantanal",
+        "url": "https://www.youtube.com/watch?v=2dXPiL26eYc",
+        "categoryId": 1
+      },
+      {
+        "id": 12,
+        "title": "Leões Caçando | Cenas fortes | Animais Selvagens",
+        "url": "https://www.youtube.com/watch?v=UeS6HbvwTck",
+        "categoryId": 1
+      },
+      {
+        "title": "\"id\":1,",
+        "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
+        "categoryId": 1,
+        "id": 13
       }
-    }
-  ],
-  "videos": [
-    {
-      "id": 1,
-      "title": "Sobrevivência, Bushcraft e Preparação: Entenda as diferenças",
-      "url": "https://www.youtube.com/watch?v=EampRie1EyI",
-      "categoryId": 2
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Bushcraft",
+    "description": "Vivência integrada na natureza",
+    "color": "#0046A0",
+    "link_extra": {
+      "text": "Curta a natureza",
+      "url": "https://www.youtube.com/watch?v=Ajl5F6iUZ_s&list=RDQMPm-uX8gCIYg&start_radio=1"
     },
-    {
-      "id": 2,
-      "title": "Solo Bushcraft Vintage Camping - Heavy Rain - Sleeping on Sheepskin with Wool Blanket - Canvas Lavvu",
-      "url": "https://www.youtube.com/watch?v=ro4vTW_qERg",
-      "categoryId": 2
-    },
-    {
-      "id": 3,
-      "title": "Acampamento de Bushcraft no Inverno",
-      "url": "https://www.youtube.com/watch?v=AKfz5Oegebc",
-      "categoryId": 2
-    },
-    {
-      "id": 4,
-      "title": "Construí um abrigo primitivo incrível! - Sobreviva Ep.20",
-      "url": "https://www.youtube.com/watch?v=wKKeh9jBhIE",
-      "categoryId": 2
-    },
-    {
-      "id": 5,
-      "title": "Pico Paraná: Hora de tentar de novo! - Bota Suja Ep.16",
-      "url": "https://www.youtube.com/watch?v=YhqtxYmeIdA",
-      "categoryId": 2
-    },
-    {
-      "id": 6,
-      "title": "COVID-19 | ISOLAMENTO SOCIAL COMO VOCÊ NUNCA VIU | Sozinho na natureza",
-      "url": "https://www.youtube.com/watch?v=iVNNu-qoX14",
-      "categoryId": 2
-    },
-    {
-      "id": 7,
-      "title": "Leões irmãos dividindo o mesmo Reino | Animais Selvagens",
-      "url": "https://www.youtube.com/watch?v=GuqHheJTORA",
-      "categoryId": 1
-    },
-    {
-      "id": 8,
-      "title": "ACAMPAMENTO SELVAGEM com barraca SOLO - Almoço na mata - Bushcraft - Cozinha mateira",
-      "url": "https://www.youtube.com/watch?v=C3yhzvOguF8",
-      "categoryId": 2
-    },
-    {
-      "id": 9,
-      "title": "ATAQUES DE HIPOPÓTAMOS EM HUMANOS",
-      "url": "https://www.youtube.com/watch?v=KK-XcQ3cXaU",
-      "categoryId": 1
-    },
-    {
-      "id": 10,
-      "title": "África do Sul Selvagem - documentários de animais HD",
-      "url": "https://www.youtube.com/watch?v=HJ7UTMcByBI",
-      "categoryId": 1
-    },
-    {
-      "id": 11,
-      "title": "Brasil Secreto Pantanal",
-      "url": "https://www.youtube.com/watch?v=2dXPiL26eYc",
-      "categoryId": 1
-    },
-    {
-      "id": 12,
-      "title": "Leões Caçando | Cenas fortes | Animais Selvagens",
-      "url": "https://www.youtube.com/watch?v=UeS6HbvwTck",
-      "categoryId": 1
-    },
-    {
-      "title": "\"id\":1,",
-      "url": "https://www.youtube.com/watch?v=hhQ3RtvmfEg",
-      "categoryId": 1,
-      "id": 13
-    }
-  ]
-}
+    "videos": [
+      {
+        "id": 1,
+        "title": "Sobrevivência, Bushcraft e Preparação: Entenda as diferenças",
+        "url": "https://www.youtube.com/watch?v=EampRie1EyI",
+        "categoryId": 2
+      },
+      {
+        "id": 2,
+        "title": "Solo Bushcraft Vintage Camping - Heavy Rain - Sleeping on Sheepskin with Wool Blanket - Canvas Lavvu",
+        "url": "https://www.youtube.com/watch?v=ro4vTW_qERg",
+        "categoryId": 2
+      },
+      {
+        "id": 3,
+        "title": "Acampamento de Bushcraft no Inverno",
+        "url": "https://www.youtube.com/watch?v=AKfz5Oegebc",
+        "categoryId": 2
+      },
+      {
+        "id": 4,
+        "title": "Construí um abrigo primitivo incrível! - Sobreviva Ep.20",
+        "url": "https://www.youtube.com/watch?v=wKKeh9jBhIE",
+        "categoryId": 2
+      },
+      {
+        "id": 5,
+        "title": "Pico Paraná: Hora de tentar de novo! - Bota Suja Ep.16",
+        "url": "https://www.youtube.com/watch?v=YhqtxYmeIdA",
+        "categoryId": 2
+      },
+      {
+        "id": 6,
+        "title": "COVID-19 | ISOLAMENTO SOCIAL COMO VOCÊ NUNCA VIU | Sozinho na natureza",
+        "url": "https://www.youtube.com/watch?v=iVNNu-qoX14",
+        "categoryId": 2
+      },
+      {
+        "id": 8,
+        "title": "ACAMPAMENTO SELVAGEM com barraca SOLO - Almoço na mata - Bushcraft - Cozinha mateira",
+        "url": "https://www.youtube.com/watch?v=C3yhzvOguF8",
+        "categoryId": 2
+      }
+    ]
+  }
+]
