@@ -43,7 +43,7 @@ const NewVideo = () => {
         <FormField
           type="text"
           name="title"
-          label="Nome da Categoria"
+          label="Nome do vídeo"
           value={values.title}
           onChange={handleChange}
         />
